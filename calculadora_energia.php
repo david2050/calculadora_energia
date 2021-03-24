@@ -1,5 +1,5 @@
+#!/usr/bin/php
 <?php
-
 require __DIR__.'/config.php';
 if(@!isset($argv[1])){
     echo "\n É necessário informar os watts para calcular. Ex.: calculadoraenergia.php 20.8 \n";
