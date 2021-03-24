@@ -7,7 +7,7 @@ if(@!isset($argv[1])){
 }
 $watts = $argv[1];
 $calculo_kwh_hora = number_format((($watts*1)/1000)*$tarifa, 2, ',', '.');
-echo "GASTO EM REAIS POR HORA: R$".$calculo_kwh_hora."\n CONTA SIMPLIFICADA: \n";
+echo "GASTO EM REAIS POR HORA: R$".$calculo_kwh_hora."\nCONTA SIMPLIFICADA: \n";
 
 $calculo_kwh_dia = (($watts*$horas_uso_diario)/1000);
 echo "KWH DIA: ".$calculo_kwh_dia."\n";
